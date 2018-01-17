@@ -19,7 +19,7 @@ from sys import argv 	#imports argv from sys
 #print argv
 
 
-API_key = "2ab136be1543b5789451a5994364c0d3"			#openweather api key
+API_key = ""			#openweather api key
 
 location = argv[1]		#fetches <city-name> from terminal
 
