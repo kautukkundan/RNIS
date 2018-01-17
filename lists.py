@@ -68,5 +68,5 @@ print nums
 
 #list sorting (descending)
 nums = [3,6,1,43,5,57,56,8]
-nums.sort(reverse=true)
+nums.sort(reverse=True)
 print nums
