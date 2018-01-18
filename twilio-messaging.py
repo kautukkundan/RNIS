@@ -1,15 +1,17 @@
-from twilio.rest import Client
+from twilio.rest import Client 		#import Client module from twilio.rest
 
-account_sid = "AC237c898d8ac5164cbeea819d12c03d82"
+account_sid = ""					#insert your own account_sid you'll get from twilio website
+	
+auth_token = ""						#insert your own auth_token you'll get from twilio website
+	
+client = Client(account_sid, auth_token)	#initialize an instance of Client module
 
-auth_token = "bbfbdb3c45f5a52f285920c09b272da6"
-
-client = Client(account_sid, auth_token)
+#actual message body 
 
 message = client.api.account.messages.create(
-	to="+919910331394",
-	from_="+14153017536", 
-	body= "twilio test"
+	to="",
+	from_="", 
+	body= "test_message"
 )
 
-print message.sid
+print message.sid 			#returns the transaction SID
