@@ -15,4 +15,3 @@ Correct order
 8. firebase-notes app
 9. email-client
 
-## Feel free to contact me in case of any doubts
