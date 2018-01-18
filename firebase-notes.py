@@ -8,7 +8,7 @@ if (len(argv)>2):				#checks if note available
 
 
 
-firebase = firebase.FirebaseApplication('https://rnis-demo.firebaseio.com/') 	#initialize firebase app
+firebase = firebase.FirebaseApplication("URL_OF_YOUR_DATABASE") 	#initialize firebase app
 
 
 if(operation=='fetch'):

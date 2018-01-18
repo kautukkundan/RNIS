@@ -12,5 +12,7 @@ Correct order
 
 6. take-a-break 
 7. twilio-messaging
+8. firebase-notes app
+9. email-client
 
 ## Feel free to contact me in case of any doubts
