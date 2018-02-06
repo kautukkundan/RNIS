@@ -27,6 +27,10 @@ elif(operation=='add'):
 	#ADDS AN ELEMENT TO THE DATABASE
 	res = firebase.post('/', note)
 	
+	#THIS ALSO ADDS ELEMENT TO DATA BASE
+	firebase.patch(hell,{"Science":sub1,"Maths":sub2,"CompSci":sub3})    #where hell is string of the path you wanna save
+	                                                                     #hell="/aaa/" +note +"/"
+		                                                             #with multiple uploads 
 	#prints confirmation
 	print 'Note added successfully'
 
